@@ -3,7 +3,7 @@ import pytest
 import allure
 
 
-@allure.title("Verify the title of the webpage https://katalon-demo-cura.herokuapp.com/")
+@allure.title("Verify the title of the webpage CURA Healthcare Service")
 def test_open_katalon():
     driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
